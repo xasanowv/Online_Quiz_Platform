@@ -36,4 +36,8 @@ public class CategoryEntity extends BaseMapper {
     @OneToMany(mappedBy = "category")
     private List<QuizCategoriesEntity>  quizCategories;
 
+    @OneToMany(mappedBy = "category")
+    private List<QuizEntity> quizEntities;
+
+
 }

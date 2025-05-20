@@ -5,8 +5,11 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.objenesis.instantiator.util.UnsafeUtils;
 
 import java.util.List;
+import java.util.UUID;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -14,8 +17,8 @@ import java.util.List;
 public class QuizCr {
     private String title;
     private String description;
-    private Long creatorId;
-    private Long categoryId;
-    private List<Long> categoryIds;
+    private UUID creatorId;
+    private UUID categoryId;
+    private List<UUID> categoryIds;
     private List<QuestionCr> questions;
 }

@@ -1,4 +1,4 @@
-POST localhost:7070/api/v1/auth/register
+POST localhost:8080/api/v1/auth/register
 Content-Type: application/json
 
 {
@@ -9,18 +9,18 @@ Content-Type: application/json
 
 
 ###
-POST localhost:7070/api/v1/auth/registerVerificationCode
+POST localhost:8080/api/v1/auth/registerVerificationCode
 Content-Type: application/json
 
 {
   "gmail": "hasanovbehruz121@gmail.com",
-  "verificationCode": "832154"
+  "verificationCode": "444721"
 }
 
 
 
 ###
-POST localhost:7070/api/v1/auth/login
+POST localhost:8080/api/v1/auth/login
 Content-Type: application/json
 
 {
@@ -28,7 +28,7 @@ Content-Type: application/json
   "password": "behruz2009"
 }
 ###
-POST localhost:7070/api/v1/auth/login
+POST localhost:8080/api/v1/auth/login
 Content-Type: application/json
 
 {
@@ -36,7 +36,7 @@ Content-Type: application/json
   "password": "behruz2009"
 }
 ###
-POST localhost:7070/api/v1/auth/register
+POST localhost:8080/api/v1/auth/register
 Content-Type: application/json
 
 {
@@ -47,7 +47,7 @@ Content-Type: application/json
 
 
 ###
-POST localhost:7070/api/v1/auth/login
+POST localhost:8080/api/v1/auth/login
 Content-Type: application/json
 
 {

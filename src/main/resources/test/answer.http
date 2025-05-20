@@ -1,5 +1,5 @@
 ### Create Answer
-POST localhost:7070/api/v1/answer/create
+POST localhost:8080/api/v1/answer/create
 Content-Type: application/json
 
 
@@ -12,11 +12,11 @@ Content-Type: application/json
 }
 
 ### Get Answer by ID
-GET localhost:7070/api/v1/answer/get-by-id/550e8400-e29b-41d4-a716-446655440000
+GET localhost:8080/api/v1/answer/get-by-id/550e8400-e29b-41d4-a716-446655440000
 
 
 ### Update Answer
-PUT localhost:7070/api/v1/answer/update/550e8400-e29b-41d4-a716-446655440000
+PUT localhost:8080/api/v1/answer/update/550e8400-e29b-41d4-a716-446655440000
 Content-Type: application/json
 
 
@@ -29,4 +29,4 @@ Content-Type: application/json
 }
 
 ### Delete Answer
-DELETE localhost:7070/api/v1/answer/delete/550e8400-e29b-41d4-a716-446655440000
+DELETE localhost:8080/api/v1/answer/delete/550e8400-e29b-41d4-a716-446655440000

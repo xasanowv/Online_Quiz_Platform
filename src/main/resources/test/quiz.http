@@ -1,22 +1,25 @@
 ### Create Quiz
-POST localhost:7070/api/v1/quiz/create
+POST localhost:8080/api/v1/quiz
 Content-Type: application/json
 
 {
+
   "title": "Test Quiz",
   "description": "Bu test quiz uchun",
-  "timeLimit": 30,
-  "isPublished": false
+  "categoryId": "aa1fe597-368e-4bee-ae6a-7901232fdf16",
+  "creatorId": "95deb06f-b89b-4c0f-b973-e5acffb1a8a3"
 }
 
+
+
 ### Get Quiz by ID
-GET localhost:7070/api/v1/quiz/get-by-id/550e8400-e29b-41d4-a716-446655440000
+GET localhost:8080/api/v1/quiz/get-by-id/550e8400-e29b-41d4-a716-446655440000
 
 ### Get All Published Quizzes
-GET localhost:7070/api/v1/quiz/published
+GET localhost:8080/api/v1/quiz/published
 
 ### Update Quiz
-PUT localhost:7070/api/v1/quiz/update/550e8400-e29b-41d4-a716-446655440000
+PUT localhost:8080/api/v1/quiz/update/550e8400-e29b-41d4-a716-446655440000
 Content-Type: application/json
 
 {
@@ -27,4 +30,4 @@ Content-Type: application/json
 }
 
 ### Delete Quiz
-DELETE localhost:7070/api/v1/quiz/delete/550e8400-e29b-41d4-a716-446655440000
+DELETE localhost:8080/api/v1/quiz/delete/550e8400-e29b-41d4-a716-446655440000

@@ -6,7 +6,7 @@ import com.company.auth.DTO.AuthVersificationCode;
 import com.company.auth.DTO.RegisterDto;
 import com.company.exception.InvalidPasswordOrGmailException;
 import com.company.exception.ItemNotFoundException;
-import com.company.security.jwtUtil;
+import com.company.jwtUtil;
 import com.company.users.Role;
 import com.company.users.Status;
 import com.company.users.User;
@@ -20,7 +20,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

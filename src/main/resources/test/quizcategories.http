@@ -1,5 +1,5 @@
 ### Create Quiz Category
-POST localhost:7070/api/v1/quiz-category/create
+POST localhost:8080/api/v1/quiz-category/create
 Content-Type: application/json
 
 
@@ -9,16 +9,16 @@ Content-Type: application/json
 }
 
 ### Get Quiz Category by ID
-GET localhost:7070/api/v1/quiz-category/get-by-id/550e8400-e29b-41d4-a716-446655440000
+GET localhost:8080/api/v1/quiz-category/get-by-id/550e8400-e29b-41d4-a716-446655440000
 
 
 ### Get by Quiz ID
-GET localhost:7070/api/v1/quiz-category/by-quiz/550e8400-e29b-41d4-a716-446655440000
+GET localhost:8080/api/v1/quiz-category/by-quiz/550e8400-e29b-41d4-a716-446655440000
 
 
 ### Get by Category ID
-GET localhost:7070/api/v1/quiz-category/by-category/550e8400-e29b-41d4-a716-446655440001
+GET localhost:8080/api/v1/quiz-category/by-category/550e8400-e29b-41d4-a716-446655440001
 
 
 ### Delete Quiz Category
-DELETE localhost:7070/api/v1/quiz-category/delete/550e8400-e29b-41d4-a716-446655440000
+DELETE localhost:8080/api/v1/quiz-category/delete/550e8400-e29b-41d4-a716-446655440000
