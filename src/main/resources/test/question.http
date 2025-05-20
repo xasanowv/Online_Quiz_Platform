@@ -1,0 +1,32 @@
+### Create Question
+POST localhost:7070/api/v1/question/create
+Content-Type: application/json
+
+
+{
+  "quizId": "550e8400-e29b-41d4-a716-446655440000",
+  "content": "Test savol matni?",
+  "type": "MULTIPLE_CHOICE",
+  "points": 5,
+  "isAiGenerated": false
+}
+
+### Get Question by ID
+GET localhost:7070/api/v1/question/get-by-id/550e8400-e29b-41d4-a716-446655440000
+
+
+### Update Question
+PUT localhost:7070/api/v1/question/update/550e8400-e29b-41d4-a716-446655440000
+Content-Type: application/json
+
+
+{
+  "quizId": "550e8400-e29b-41d4-a716-446655440000",
+  "content": "Yangilangan savol matni?",
+  "type": "TRUE_FALSE",
+  "points": 3,
+  "isAiGenerated": false
+}
+
+### Delete Question
+DELETE localhost:7070/api/v1/question/delete/550e8400-e29b-41d4-a716-446655440000

@@ -1,4 +1,4 @@
-package com.company.answer.DTO;
+package com.company.userresponse.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,15 +6,15 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.UUID;
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-@Builder
-public class AnswerCr {
-    private UUID questionId;
-    private String content;
-    private Boolean isCorrect;
-    private Integer orderNum;
-    private String feedback;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class UserResponseCr {
+    private UUID resultId;
+    private UUID questionId;
+    private UUID answerId;
+    private String textResponse;
+    private Boolean isCorrect;
 }

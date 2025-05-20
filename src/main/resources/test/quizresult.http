@@ -1,0 +1,34 @@
+### Create Quiz Result
+POST localhost:7070/api/v1/quiz-result/create
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
+
+{
+  "userId": "550e8400-e29b-41d4-a716-446655440000",
+  "quizId": "550e8400-e29b-41d4-a716-446655440001",
+  "score": 85
+}
+
+### Get Quiz Result by ID
+GET localhost:7070/api/v1/quiz-result/get-by-id/550e8400-e29b-41d4-a716-446655440000
+
+
+### Get by User ID
+GET localhost:7070/api/v1/quiz-result/by-user/550e8400-e29b-41d4-a716-446655440000
+
+
+### Get by Quiz ID
+GET localhost:7070/api/v1/quiz-result/by-quiz/550e8400-e29b-41d4-a716-446655440001
+
+
+### Update Quiz Result
+PUT localhost:7070/api/v1/quiz-result/update/550e8400-e29b-41d4-a716-446655440000
+Content-Type: application/json
+
+
+{
+  "score": 90
+}
+
+### Delete Quiz Result
+DELETE localhost:7070/api/v1/quiz-result/delete/550e8400-e29b-41d4-a716-446655440000

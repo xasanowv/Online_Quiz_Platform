@@ -16,7 +16,9 @@ public class AnswerResp {
     private UUID id;
     private UUID questionId;
     private String content;
-    private UUID userResponseId;
+    private Boolean isCorrect;
+    private Integer orderNum;
+    private String feedback;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 }

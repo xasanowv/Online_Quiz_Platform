@@ -1,0 +1,37 @@
+### Create User Response
+POST localhost:7070/api/v1/user-response/create
+Content-Type: application/json
+
+
+{
+  "resultId": "550e8400-e29b-41d4-a716-446655440000",
+  "questionId": "550e8400-e29b-41d4-a716-446655440001",
+  "answerId": "550e8400-e29b-41d4-a716-446655440002",
+  "textResponse": "Foydalanuvchi javobi",
+  "isCorrect": true
+}
+
+### Get User Response by ID
+GET localhost:7070/api/v1/user-response/get-by-id/550e8400-e29b-41d4-a716-446655440000
+
+
+### Get by Result ID
+GET localhost:7070/api/v1/user-response/by-result/550e8400-e29b-41d4-a716-446655440000
+
+
+### Get by Question ID
+GET localhost:7070/api/v1/user-response/by-question/550e8400-e29b-41d4-a716-446655440001
+
+
+### Update User Response
+PUT localhost:7070/api/v1/user-response/update/550e8400-e29b-41d4-a716-446655440000
+Content-Type: application/json
+
+
+{
+  "textResponse": "Yangilangan javob",
+  "isCorrect": false
+}
+
+### Delete User Response
+DELETE localhost:7070/api/v1/user-response/delete/550e8400-e29b-41d4-a716-446655440000

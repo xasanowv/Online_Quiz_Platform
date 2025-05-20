@@ -6,6 +6,7 @@ import com.company.companent.BaseMapper;
 import com.company.quiz.QuizEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.context.annotation.EnableMBeanExport;
@@ -17,6 +18,7 @@ import java.util.UUID;
 @Table(name = "quiz_category")
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Data
 public class QuizCategoriesEntity extends BaseMapper {
 

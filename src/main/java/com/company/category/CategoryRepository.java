@@ -19,4 +19,5 @@ public interface CategoryRepository extends JpaRepository<CategoryEntity , UUID>
 
     Page<CategoryEntity> findAllByVisibilityTrue(Pageable pageable);
 
+    Optional<Object> findById(Long categoryId);
 }

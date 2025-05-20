@@ -1,0 +1,32 @@
+### Create Answer
+POST localhost:7070/api/v1/answer/create
+Content-Type: application/json
+
+
+{
+  "questionId": "550e8400-e29b-41d4-a716-446655440000",
+  "content": "Bu test javob matni",
+  "isCorrect": true,
+  "orderNum": 1,
+  "feedback": "To'g'ri javob uchun tushuntirish"
+}
+
+### Get Answer by ID
+GET localhost:7070/api/v1/answer/get-by-id/550e8400-e29b-41d4-a716-446655440000
+
+
+### Update Answer
+PUT localhost:7070/api/v1/answer/update/550e8400-e29b-41d4-a716-446655440000
+Content-Type: application/json
+
+
+{
+  "questionId": "550e8400-e29b-41d4-a716-446655440000",
+  "content": "Yangilangan javob matni",
+  "isCorrect": false,
+  "orderNum": 2,
+  "feedback": "Noto'g'ri javob uchun tushuntirish"
+}
+
+### Delete Answer
+DELETE localhost:7070/api/v1/answer/delete/550e8400-e29b-41d4-a716-446655440000

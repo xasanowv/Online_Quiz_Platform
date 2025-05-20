@@ -72,8 +72,6 @@ public class QuizService {
                 .id(quiz.getId())
                 .title(quiz.getTitle())
                 .description(quiz.getDescription())
-                .creatorId(quiz.getCreator().getId())
-                .categoryId(quiz.getCategory() != null ? quiz.getCategory().getId() : null)
                 // Map other properties as needed
                 .build();
     }
