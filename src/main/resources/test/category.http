@@ -1,0 +1,30 @@
+### Create
+POST localhost:7070/api/v1/category
+Authorization: Basic
+Content-Type: application/json
+
+{
+  "name": "TV"
+}
+
+### Get All
+GET localhost:7070/api/v1/category/get-all?page=0&size=5
+Authorization: Bearer
+
+### Get BY Id
+GET localhost:7070/api/v1/category/090d6848-5275-4867-a8f9-21eea18c84b8
+Authorization: Bearer
+
+
+### Update (id, categoryCr)
+PUT localhost:7070/api/v1/category/fe7a73b4-c8e7-4edf-823d-ed8941c0ffb1
+Content-Type: application/json
+Authorization: Bearer
+
+{
+  "name": "erkaklar kiyimi"
+}
+
+### Delete By id
+DELETE localhost:7070/api/v1/category/fe7a73b4-c8e7-4edf-823d-ed8941c0ffb1
+Authorization: Bearer

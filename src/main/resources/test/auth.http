@@ -1,0 +1,56 @@
+POST localhost:7070/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "username": "Behruz",
+  "gmail": "hasanovbehruz121@gmail.com",
+  "password": "behruz2009"
+}
+
+
+###
+POST localhost:7070/api/v1/auth/registerVerificationCode
+Content-Type: application/json
+
+{
+  "gmail": "hasanovbehruz121@gmail.com",
+  "verificationCode": "832154"
+}
+
+
+
+###
+POST localhost:7070/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "gmail": "hasanovbehruz121@gmail.com",
+  "password": "behruz2009"
+}
+###
+POST localhost:7070/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "gmail": "hasanovbehruz131@gmail.com",
+  "password": "behruz2009"
+}
+###
+POST localhost:7070/api/v1/auth/register
+Content-Type: application/json
+
+{
+"username": "sobir",
+"gmail": "fayzullayevsardorbek81@gmail.com",
+"password": "sobir"
+}
+
+
+###
+POST localhost:7070/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "gmail": "hoji",
+  "password": "123"
+}

@@ -1,0 +1,17 @@
+##
+GET localhost:9090/api/v1/user/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXJkb3JiZWtmYXl6dWxsYXlldjgyODhAZ21haWwuY29tIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3NDUwMzg2MTQsImV4cCI6MTc0NTEyNTAxNH0.Bp-3uXpUOXa_ucJMrBafBTVqVXa84k8ML4h37M8Ww1w
+
+###
+GET localhost:9090/api/v1/user/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmYXl6dWxsYXlldnNhcmRvcmJlazgxQGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc0NTA0MTY1MSwiZXhwIjoxNzQ1MTI4MDUxfQ.3MlNoa4uqzBnRbMV-mgRYtx1bT9WdrM3DHrXQLG5Fjg
+
+
+###
+GET localhost:9090/api/v1/admin/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmYXl6dWxsYXlldnNhcmRvcmJlazgxQGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc0NTA0MTY1MSwiZXhwIjoxNzQ1MTI4MDUxfQ.3MlNoa4uqzBnRbMV-mgRYtx1bT9WdrM3DHrXQLG5Fjg
+
+
+###
+GET localhost:9090/api/v1/admin/user/202
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmYXl6dWxsYXlldnNhcmRvcmJlazgxQGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc0NTA0MTY1MSwiZXhwIjoxNzQ1MTI4MDUxfQ.3MlNoa4uqzBnRbMV-mgRYtx1bT9WdrM3DHrXQLG5Fjg
